@@ -162,3 +162,13 @@ a{
   justify-content: space-around;
 }
 
+
+
+/* image effect2- brightness */
+.image-effect2{
+  transition: 0.35s ease;
+}
+.image-effect2:hover{
+  filter:brightness(115%);
+	transition: 	.2s;
+}
