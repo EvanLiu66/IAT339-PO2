@@ -1,0 +1,336 @@
+/* header part and navigation */
+
+*{
+	box-sizing: border-box;
+  
+}
+header{
+    padding:1rem;
+    margin:1rem;
+    width:100%;
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+header .main-navigation{
+    width:100;
+    display:flex;
+    justify-content: space-between;
+    padding:2rem 0;
+    height:10rem;
+}
+.main-navigation a{
+    text-decoration: none;
+    font-size:1.2rem;
+    padding:1rem;
+    padding-bottom: 1.5rem;
+    margin:1rem 0;
+
+}
+.main-navigation a:hover{
+    border-bottom: 2px solid #606c38;
+    color:#606c38;
+    
+}
+
+
+/* intro part*/
+#intro{
+    max-width:1400px;
+    margin:auto;
+    padding:1rem;
+}
+
+.Company-intro{
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.Company-detail{
+    width:50%;
+    padding:2rem;
+    line-height: 1.6rem;
+    border:1px solid #283618;
+    border-left:0;
+    border-radius: 0.8rem;
+}
+.Company-detail p{
+    font-size: 0.9rem;
+}
+
+.Herbalmedicine-intro{
+    width:100%;
+    display:flex;
+    margin:2rem 0;
+    margin-top: 3rem;
+}
+.Herbaltea-detail{
+    width:50%;
+    padding:2rem;
+    line-height: 1.6rem;
+    border:1px solid #283618;
+    border-right: 0;
+    border-radius: 0.8rem;
+}
+.Herbaltea-detail p{
+    font-size: 0.9rem;
+}
+
+
+
+/* interactive elements part */
+
+#interactive-element{
+    max-width:1400px;
+    margin:auto;
+    padding:1rem;
+   
+
+}
+#interactive-element h3{
+    width:100%;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #283618;
+}
+
+.intext-link{
+    width:100%;
+    padding:1rem;
+}
+
+.Intext:hover, .Intext:focus{
+    font-weight: bold;
+    color:#bc6c25;
+    border-bottom: 1px solid #283618;
+}
+
+.navigation-link{
+    width:100%;
+    padding:1rem;
+}
+.navigation-link a>h4:hover{
+    
+    color:#bc6c25;
+    
+}
+
+.submit-button{
+    width:100%;
+    padding:1rem;
+}
+.button{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.text-input{
+    width:100%;
+    padding:1rem;
+}
+
+.radio-button{
+    width:100%;
+    padding:1rem;
+}
+
+.image-link{
+    width:100%;
+    padding:1rem;
+}
+
+
+/* text-element part */
+#text-elements{
+    max-width: 1400px;
+    margin:auto;
+    padding: 3rem 1rem;
+    
+}
+
+
+
+.text-heading{
+    width:100%;
+    padding:1rem;
+}
+.text-heading>h3{
+    width:100%;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #283618;
+}
+
+.text-paragraphs{
+    width:100%;
+    padding:1rem;
+}
+
+.text-paragraphs>h3{
+    width:100%;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #283618;
+}
+
+.text-number-list{
+    width:100%;
+    padding:1rem;
+}
+
+.text-number-list>h3{
+    width:100%;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #283618;
+}
+
+
+/* product parts */
+
+#product{
+    max-width:1400px;
+    padding:1rem;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.Herbaltea{
+    max-width:17rem;
+    max-height:40rem;
+    padding:2rem;
+    margin:1rem;
+    border-radius:0.8rem;
+    border:1px solid #283618;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Herbaltea div{
+    width:100%;
+    
+}
+.Herbaltea div img{
+    width:100%;
+}
+
+.Herbaljelly{
+    max-width:17rem;
+    max-height:40rem;
+    padding:2rem;
+    margin:1rem;
+    border-radius:0.8rem;
+    border:1px solid #283618;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Herbaljelly div{
+    width:100%;
+    
+}
+.Herbaljelly div img{
+    width:100%;
+}
+
+.HerbaljellyMT{
+    max-width:17rem;
+    max-height:40rem;
+    padding:2rem;
+    margin:1rem;
+    border-radius:0.8rem;
+    border:1px solid #283618;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.HerbaljellyMT div{
+    width:100%;
+    
+}
+.HerbaljellyMT div img{
+    width:100%;
+}
+
+
+/* payment form */
+
+#payment-form{
+    max-width:1400px;
+    margin:auto;
+    padding:1rem;
+    padding-top: 5rem;
+}
+.detail{
+    width:100%;
+    
+    border-radius: 1rem;
+    padding:2rem;
+    border: 1px solid #283618;
+}
+
+
+.paymentform1{
+    line-height: 0.1rem;
+    
+}
+.form{
+    margin:0;
+}
+.paymentform1 h4{
+    margin:0;
+    padding:0;
+}
+
+
+
+/* Checkout */
+#checkout{
+    max-width:1400px;
+    margin:auto;
+    padding-top: 5rem;;
+}
+.Checkout{
+    width:20rem;
+    height:20rem;
+    display:flex;
+    justify-content: space-between;
+    margin:2rem 0;
+    border:1px solid #283618;
+    padding:1rem 1rem;
+    border-radius: 1rem;
+}
+.Checkout-right{
+    width:45%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 3rem;
+  
+}
+.Checkout-right>a{
+    margin:0 1rem;
+}
+  
+.Checkout-left{
+    width:55%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0 1rem;
+}
+.Checkout-left>a>img{
+    width:100%;
+    
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+}

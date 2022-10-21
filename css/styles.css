@@ -1,7 +1,164 @@
 p{
-  color:pink;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#283618;
 }
 
 h1{
-  color:grey;
+  
+  font-family: 'Domine', serif;
+  font-weight: 700;
+  color:#283618;
+  
 }
+
+h2{
+  font-family: 'Domine', serif;
+  font-weight:500;
+  color:#606C38;
+}
+
+h3{
+  font-family: 'Domine', serif;
+  font-weight:400;
+  color:#283618;
+}
+h4{
+  font-family: 'Domine', serif;
+  color:#283618;
+}
+h5{
+  font-family: 'Domine', serif;
+  color:#283618;
+}
+h6{
+  font-family: 'Domine', serif;
+  color:#283618;
+}
+
+a{
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  color:#283618;
+  text-decoration: none;
+}
+
+
+/* image effect */
+.image-effect{
+  position:relative;
+  width:50%;
+ 
+  border-radius: 2rem;
+}
+.image-effect img{
+  width:100%;
+  height:100%;
+}
+.overlay{
+  position: absolute;
+  bottom:100%;
+  left:0;
+  right:0;
+  background-color: #283618;
+  overflow: hidden;
+  width:100%;
+  height:0;
+  transition:0.5s ease;
+
+}
+.image-effect:hover .overlay{
+  bottom:0;
+  height:100%;
+}
+
+.overlay-text h2{
+  white-space: nowrap;
+  color:#fefae0;
+  position: absolute;
+  overflow: hidden;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* image effect2- image as a link */
+.container{
+  position:relative;
+  width:30%;
+  margin:auto;
+  margin-top: 1rem;
+}
+.container img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+.over{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #283618;
+  overflow: hidden;
+  width:0;
+  height:100%;
+  transition: .5s ease;
+}
+.container:hover .over{
+  width:100%;
+}
+.over-text{
+  white-space: nowrap;
+  color:#fefae0;
+  position:absolute;
+  overflow: hidden;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%, -50%);
+}
+
+/* submit button */
+.button-sub{
+  display: inline-block;
+  border:0.8px solid #606C38;
+  font-size:1rem;
+  font-weight: bold;
+  color:#283618;
+  padding:0.6rem 1.2rem;
+  border-radius: 1rem;
+  margin:0.5rem 0;
+}
+.button-sub:hover, .button-sub:focus{
+  background-color:#283618;
+  color:#fefae0;
+}
+
+
+/* text input form */
+.form input[type=text]{
+  width:5rem;
+  border: 2px solid #283618;
+  border-radius: 0.8rem;
+  font-size:0.6rem;
+  
+  background-position:10px 10px;
+  background-repeat: no-repeat;
+  padding:0.5rem 1rem;
+  transition: width 0.4s ease-in-out;
+
+}
+.form input[type=text]:focus, .form input[type=text]:hover {
+  width:10rem;
+  
+  
+}
+.form{
+  display:flex;
+  height:5rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+

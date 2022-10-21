@@ -4,9 +4,15 @@
     <title>This is document title</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Open+Sans&display=swap" rel="stylesheet">
   </head>
+  
   <body>
-    <h1>PO2-Style guide</h1>
 
     <header>
       <h1>PO2-Style guide</h1>
@@ -42,8 +48,14 @@
             after you drink it.
           </p>
         </div>
-        <div>
-          <img src="images/herbal medicine/2.jpg.webp" alt="intro" />
+        <div class="image-effect">
+          <img src="images/herbal medicine/5.jpeg" alt="herbaltea" >
+          
+          <div class="overlay">
+            <div class="overlay-text">
+              <h2>Fresh tea</h2>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -62,8 +74,13 @@
             each recipe has their specific function to human body.
           </p>
         </div>
-        <div>
-          <img src="images/herbal medicine/5.jpeg" alt="herbaltea" />
+        <div class="image-effect">
+          <img src="images/herbal medicine/2.jpg.webp" alt="intro" >
+          <div class="overlay">
+            <div class="overlay-text">
+              <h2>Fresh tea</h2>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -77,11 +94,13 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.Intext</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;p&gt;Here is our new promotion of drinks &lt;a class="Intext" href="#"&gt;Click here!&lt;/a&gt;&lt;/p&gt;</code>
 
           <h4>Renderd element:</h4>
+          <p>Here is our new promotion of drinks <a class="Intext" href="https://www.sfu.ca">Click here!</a></p>
         </div>
       </section>
 
@@ -90,11 +109,13 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.main-navigation</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;a href="#" class="button"&gt;Meun&lt;/a&gt;</code>
 
           <h4>Renderd element:</h4>
+          <a href="index.html"><h5>Click here to check navigation</h5></a>
         </div>
       </section>
 
@@ -103,11 +124,20 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.button-sub</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;a href="#" class="button-sub"&gt;Submit&lt;/a&gt;</code>
 
           <h4>Renderd element:</h4>
+          <div class="button">
+            <a class="button-sub" href="#">Submit</a>
+            <a class="button-sub" href="#">Purchase</a>
+            <a class="button-sub" href="#">Add to cart</a>
+            <a class="button-sub" href="#">Learn more</a>
+            <a class="button-sub" href="#">Join now</a>
+            <a class="button-sub" href="#">Choose store</a>
+          </div>
         </div>
       </section>
 
@@ -116,11 +146,16 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.input</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;p&gt;&lt;label&gt;Feedback: &lt;/label&gt;&lt;input type="text"&gt;&lt;/p&gt;</code>
 
           <h4>Renderd element:</h4>
+          <div class="form">
+            <input type="text" name="account" placeholder="Account number">
+            <input type="text" name="account" placeholder="password">
+          </div>
         </div>
       </section>
 
@@ -129,11 +164,26 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.button-ratio</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;a class="button-ratio" href="#"&gt;&lt;label&gt;Debit&lt;/label&gt;&lt;input type='radio'&gt;&lt;/a&gt;</code>
 
           <h4>Renderd element:</h4>
+          <div class="ratio">
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="debit">
+              <label>Debit</label>
+            </p>
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="credit">
+              <label>Credit</label>
+            </p>
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="Bitcoin">
+              <label>Bitcoin</label>
+            </p>
+          </div>
         </div>
       </section>
 
@@ -142,11 +192,30 @@
 
         <div>
           <h4>CSS selector:</h4>
-          <p></p>
+          <p>.imagelink</p>
 
           <h4>Sample code:</h4>
+          <code>&lt;a href="www.sfu.ca"&gt;
+            &lt;img src="image/img1.jpg" alt="this is a brown sugar milk tea"&gt;
+            &lt;/a&gt;</code>
 
           <h4>Renderd element:</h4>
+          <div class="container">
+            <a href="https://www.sfu.ca">
+              <img src="images/herbal medicine/3.jpg" alt="this is a brown sugar milk tea">
+              <div class="over">
+                <div class="over-text">Classic Milk Tea</div>
+              </div>
+            </a>
+          </div>
+          <div class="container">
+            <a href="https://www.sfu.ca">
+              <img src="images/herbal medicine/2.jpg.webp" alt="this is a fresh milk tea">
+              <div class="over">
+                <div class="over-text">Fresh Milk Tea</div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
     </section>
@@ -158,20 +227,34 @@
       <section class="text-heading">
         <h3>Heading</h3>
 
+
         <h4>Sample code:</h4>
+        <code>&lt;h3&gt;Headings&lt;/h3&gt;</code>
 
         <div>
           <h4>Rendered element:</h4>
+          <div>
+            
+            <h2>This is Heading</h2>
+            <h3>This is Heading</h3>
+            <h4>This is Heading</h4>
+            <h5>This is Heading</h5>
+            <h6>This is Heading</h6>
+          </div>
         </div>
       </section>
 
       <section class="text-paragraphs">
         <h3>Paragraphs</h3>
 
+
         <h4>Sample code:</h4>
+        <code>&lt;p&gt;Bubble tea is a tea-based drink that originated in Taiwan in the early 1980s. It most commonly consists of tea accompanied by chewy tapioca balls, but it can be made with other toppings as well, such as grass jelly, aloe vera, or red bean.&lt;/p&gt;
+        </code>
 
         <div>
           <h4>Rendered element:</h4>
+          <p>Bubble tea is a tea-based drink that originated in Taiwan in the early 1980s. It most commonly consists of tea accompanied by chewy tapioca balls, but it can be made with other toppings as well, such as grass jelly, aloe vera, or red bean.</p>
         </div>
       </section>
 
@@ -179,11 +262,24 @@
         <h3>Numbered Lists</h3>
 
         <h4>CSS selector:</h4>
-
+        <p>.numberlist</p>
+        
         <h4>Sample code:</h4>
+        <code>&lt;ol&gt;
+          &lt;li&gt;Better Ingredient&lt;/li&gt;
+          &lt;li&gt;Lower Calories&lt;/li&gt;
+          &lt;li&gt;lower sugar&lt;/li&gt;
+          &lt;li&gt;Lower Caffine&lt;/li&gt;
+          &lt;/ol&gt;</code>
 
         <div>
           <h4>Rendered element:</h4>
+          <ol>
+            <a href="http://flexboxfroggy.com"><li>Better Ingredient</li></a>
+            <a href="http://flexboxfroggy.com"><li>Lower Calories</li></a>
+            <a href="http://flexboxfroggy.com"><li>lower sugar</li></a>
+            <a href="http://flexboxfroggy.com"><li>Lower Caffine</li></a>
+          </ol>
         </div>
       </section>
     </section>
@@ -204,6 +300,10 @@
             Classic herbal tea has the effect of preventing diabete, preventing
             high blood pressure and make people calm
           </p>
+
+          <div class="button">
+            <a class="button-sub" href="#">Purchase</a>
+          </div>
         </div>
       </div>
 
@@ -221,6 +321,10 @@
             Herbal Jelly(Grass Jelly) is the famous desert in our store, it
             cooked by herbal tea and has the similar effect to herbal tea
           </p>
+
+          <div class="button">
+            <a class="button-sub" href="#">Purchase</a>
+          </div>
         </div>
       </div>
 
@@ -242,18 +346,143 @@
             It combines fresh milk with herbal jelly. Taste it you can have two
             flavour experiences.
           </p>
+
+          <div class="button">
+            <a class="button-sub" href="#">Purchase</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- combine element payment form -->
     <section id="payment-form">
+      <h2>Payment Form</h2>
+      <div class="element">
+        
+        <div class="detail">
+            <h3>Here is your order summary:</h3>
+            <div>
+              <p>1 * Classic milk tea - $7.35</p>
+              <p>1 * Mango milk tea - $7.50</p>
+              <p>Tax - $0.5</p>
+              <p>Total - $14.85</p>
+              <p>Thanks for your purchase!</p>
+            </div>
+        </div>
+        
+
+        <div class="payment">
+          <h3>Please choose a way to complete payment</h3>
+          <div class="ratio">
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="debit">
+              <label>Debit</label>
+            </p>
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="credit">
+              <label>Credit</label>
+            </p>
+            <p>
+              <input class="ratio-button" type="radio" name="payment" value="Bitcoin">
+              <label>Bitcoin</label>
+            </p>
+          </div>
+        </div>
+        <div class="paymentform">
+          <h3>Payment Form</h3>
+          
+          <div class="paymentform1">
+            <h4>Name on Card</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="Evan..">
+            </div>
+            
+            
+            <h4>Credit card number</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="12345..">
+            </div>
+
+            <h4>Exp Month</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="11..">
+            </div>
+
+            <h4>Exp Year</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="2026..">
+            </div>
+
+            <h4>CVV</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="123..">
+            </div>
+
+            <h4>Zip Code</h4>
+            <div class="form">
+              <input type="text" name="account" placeholder="5v3...">
+            </div>
+
+          </div>
+          <a class="button-sub" href="#">Continue</a>
+        </div>
+
+      </div>
 
     </section>
 
     <!-- combine element Checkout cart -->
     <section id="checkout">
+      <h2>Checkout</h2>
+      <div class="Checkout">
+        <div class="Checkout-right">
+          <a href=""><p> + </p></a>
+          <a href=""><p> 1 </p></a>
+          <a href=""><p> - </p></a>
 
+        </div>
+
+        <div class="Checkout-left">
+          <a><img src="images/products/grass jelly .jpg.webp" alt="This is a small product picture"></a>
+          <div>
+            <a><p>Classic Preal Milk Tea</p></a>
+            <p> $7.45 </p>
+            <h5>Total Price: $7.45 </h5>
+          </div>
+        </div>
+      </div>
+      <div class="Checkout">
+        <div class="Checkout-right">
+          <a href=""><p> + </p></a>
+          <a href=""><p> 1 </p></a>
+          <a href=""><p> - </p></a>
+
+        </div>
+
+        <div class="Checkout-left">
+          <a><img src="images/products/grass jelly milk tea.jpg" alt="This is a small product picture"></a>
+          <div>
+            <a><p>Fresh Milk Tea</p></a>
+            <p> $8.00 </p>
+            <h5>Total Price: $8.00</h5>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="Checkout-bottom">
+        <div class="ratio">
+          <p>
+            <input class="ratio-button" type="radio" name="payment" value="debit">
+            <label>Delivery</label>
+          </p>
+          <p>
+            <input class="ratio-button" type="radio" name="payment" value="credit">
+            <label>In Store Pick Up</label>
+          </p>
+          
+        </div>
+      </div>
     </section>
 
     <!-- citation part -->
