@@ -1,16 +1,16 @@
 p{
-  
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color:#283618;
 }
 
 h1{
-  
+
   font-family: 'Domine', serif;
   font-weight: 700;
   color:#283618;
-  
+
 }
 
 h2{
@@ -49,7 +49,7 @@ a{
 .image-effect{
   position:relative;
   width:50%;
- 
+
   border-radius: 2rem;
 }
 .image-effect img{
@@ -143,7 +143,7 @@ a{
   border: 2px solid #283618;
   border-radius: 0.8rem;
   font-size:0.6rem;
-  
+
   background-position:10px 10px;
   background-repeat: no-repeat;
   padding:0.5rem 1rem;
@@ -152,8 +152,8 @@ a{
 }
 .form input[type=text]:focus, .form input[type=text]:hover {
   width:10rem;
-  
-  
+
+
 }
 .form{
   display:flex;
