@@ -189,4 +189,6 @@ header img{
   border:1px solid pink;
   overflow:hidden;
   margin:10px;
+  width:100%;
+  height:auto;
 }
