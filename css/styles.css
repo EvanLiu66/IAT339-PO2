@@ -136,7 +136,11 @@ a{
   color:#fefae0;
 }
 
-
+header{
+  overflow:hidden;
+}
+header img{
+}
 /* text input form */
 .form input[type=text]{
   width:5rem;
@@ -162,8 +166,6 @@ a{
   justify-content: space-around;
 }
 
-
-
 /* image effect2- brightness */
 .image-effect2{
   transition: 0.35s ease;
@@ -171,4 +173,20 @@ a{
 .image-effect2:hover{
   filter:brightness(115%);
 	transition: 	.2s;
+}
+
+/*modular*/
+.modular1{
+  overflow:hidden;
+}
+#textmod1{
+  border:1px solid blue;
+  float:left;
+  /* margin-right:2rem; */
+  width:15rem;
+}
+#imgmod1{
+  border:1px solid pink;
+  overflow:hidden;
+  margin:10px;
 }
