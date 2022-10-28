@@ -1,4 +1,4 @@
-<script>
+
 function openStory(storyName){
   var i;
   var x = document.getElementsByClassName("story");
@@ -7,4 +7,3 @@ function openStory(storyName){
   }
   document.getElementById(storyName).style.display="block";
 }
-</script>

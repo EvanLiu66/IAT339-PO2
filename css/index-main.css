@@ -26,8 +26,8 @@ nav{
 
 .modtext{
   padding-top: 1rem;
-  border: 1px solid black;
-  font-size: 1.5rem;
+  /* border: 1px solid black; */
+  font-size: 2.3rem;
   width:77%;
 
 }
@@ -50,7 +50,7 @@ nav{
 }
 
 .responsiveimg{
-  max-width:500px;
+  max-width:1000px;
   width:100%;
   height:auto;
   /* border-radius:23px; */
