@@ -39,7 +39,35 @@ nav{
   background-color: green;
   /* border-radius:23px; */
 }
+.ewrappergrid{
+display:grid;
+background-color: green;
+}
+.iwrappergrid{
+  width:70%;
+  max-width: 1000px;
+  /* margin:0 auto; */
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  background-color: purple;
+}
+.idisplaygrid{
+  border:1px solid black;
+}
 
+.card{
+  background:white;
+  text-decoration:none;
+  display:flex;
+  flex-direction: column;
+  min-height: 30%;
+}
+
+.grid{
+  width:5rem;
+}
 #gridtext{
   flex:0 0 65%;
   padding:1rem;
@@ -54,4 +82,16 @@ nav{
   width:100%;
   height:auto;
   /* border-radius:23px; */
+}
+
+@media only screen and(min-width:500px){
+  .iwrappergrid{
+    grid-template-columns:repeat(2, 1fr);
+  }
+}
+
+@media only screen and(min-width:850px){
+  .iwrappergrid{
+    grid-template-columns: repeat(4,1fr);
+  }
 }
