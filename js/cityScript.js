@@ -1,4 +1,4 @@
-
+console.log("init")
 function openStory(storyName){
   var i;
   var x = document.getElementsByClassName("story");

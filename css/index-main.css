@@ -77,6 +77,10 @@ background-color: green;
   flex:1;
 }
 
+#tcm{
+  display:none;
+}
+
 .responsiveimg{
   max-width:1000px;
   width:100%;
