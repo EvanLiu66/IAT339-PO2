@@ -3,7 +3,7 @@
 }
 
 p{
-  color:pink;
+
 }
 nav{
   margin:1rem;
@@ -22,4 +22,36 @@ nav{
 
 .main-navigation a:hover{
   border-bottom: 3px solid black;
+}
+
+.modtext{
+  padding-top: 1rem;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  width:77%;
+
+}
+
+.wrapper{
+  display:flex;
+  /* margin:2rem; */
+  padding:2rem;
+  background-color: green;
+  /* border-radius:23px; */
+}
+
+#gridtext{
+  flex:0 0 65%;
+  padding:1rem;
+}
+
+#gridimg{
+  flex:1;
+}
+
+.responsiveimg{
+  max-width:500px;
+  width:100%;
+  height:auto;
+  /* border-radius:23px; */
 }

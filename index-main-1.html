@@ -21,11 +21,11 @@
     <div class="wrapper">
       <!-- Modular Section for Introduction -->
       <div id="gridtext">
-    <p>FreshTea is a bubble tea store originally from Hong Kong with the
+    <p class="modtext">FreshTea is a bubble tea store originally from Hong Kong with the
 first mission of “drinking your favorite bubble tea made by traditional Chinese herbal to make you body healthier”. We not only have products of red tea and green tea, but also the traditional Chinese herbal tea which have herbal medicine as ingredients.
       </div>
   <div id="gridimg">
-  <img src="images/herbal medicine/5.jpeg" alt="herbalTea">
+  <img class="responsiveimg" src="images/herbal medicine/5.jpeg" alt="herbalTea">
   </div>
   </div>
 
@@ -39,10 +39,20 @@ first mission of “drinking your favorite bubble tea made by traditional Chines
   <div class="menu">
     <!-- Scrolling Menu With Drinks -->
     </div>
-<div class="Our Story">
+<div>
+<div class="ourstory">
+  <button onclick="openStory('comparison')">Our Story</button>
+  <button onclick="openStory('tcm')">Traditional Medicine</button>
+  </div>
+  <div id="comparison" class="story">
+    <h3> Dare to Compare </h3>
   <p>Compared to other beverage stores, we are focusing the most on how to improve and adjust your body health. Every drink we are selling are listed with their ingredients, sugar proportion, and number of calories it contains. For all products contain herbal medicine we will also list the function and what changes you body will happen
   after you drink it.</p>
+  </div>
+  <div id="tcm" class="story">
+    <h3>What is Traditional Chinese Medicine</h3>
   <p>Chinese traditional herbal tea is base on Traditional Chinese medicine (TCM). TCM has been around for over a thousand years,duringthe late Qing dynasty medicine scholars believed that natural plantscan solve diseases through the balance of Qi. A man named ShengLong, tried thousands natural plants and recorded every plants relative function to the human body, this record forms thecomprehensive codex of Chinese herbal medicine. After thousands of years of evolution, there are hundred recipe of herbal medicine,each recipe has their specific function to human body.</p>
+  </div>
   </div>
   </body>
 </html>
