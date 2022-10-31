@@ -71,6 +71,7 @@ nav{
 
 .scrolling-text{
   border:1px solid black;
+
   padding:-.5rem;
 display:inline-block;
 transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
@@ -90,7 +91,7 @@ backface-visibility: hidden;
   display:flex;
   /* margin:2rem; */
   padding:2rem;
-  background-color: green;
+  /* background-color: green; */
   /* border-radius:23px; */
 }
 

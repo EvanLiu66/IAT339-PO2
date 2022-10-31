@@ -89,3 +89,5 @@ $(document).ready(function() {
         })
     }
 });
+
+/*Taken From https://codepen.io/nikantic/pen/VwLjGyE*/
