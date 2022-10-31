@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 p{
@@ -38,6 +39,27 @@ nav{
   display:grid;
   grid-template-columns: 1fr;
   grid-gap:20px;
+}
+
+/* .bestsellers{
+  margin: 0 -5px;
+}
+
+.bestsellers:after{
+  content:"";
+  display:table;
+  clear:both;
+} */
+/* .colmenu{
+float:left;
+width:20%;
+/* padding:0 .5rem; */
+} */
+
+.cardMenu{
+  padding:1rem;
+  text-align:center;
+  background-color: green;
 }
 
 .card{
@@ -149,23 +171,23 @@ backface-visibility: hidden;
   padding-left:1rem;
 }
 
+@media screen and (max-width:600px){
+  .colmenu{
+    width:100%;
+    display:block;
+    margin-bottom: 1rem;
+  }
+}
+
 @media only screen and (min-width:500px){
   .cardRepo{
     grid-template-columns: 1fr 1fr;
-  }
-
-  .item-1{
-    grid-column: 1/ span 3;
-  }
-
-  .item-4{
-    grid-column: 2/ span 2;
   }
 
 }
 
 @media only screen and (min-width:850px){
   .cardRepo{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
   }
 }
