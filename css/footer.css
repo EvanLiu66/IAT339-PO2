@@ -12,6 +12,7 @@ footer{
     height:100%;
     display:flex;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     
 
 }
@@ -79,3 +80,4 @@ footer{
     font-family: 'Domine', serif;
     font-weight: 400;
 }
+

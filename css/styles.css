@@ -171,7 +171,7 @@ header img{
   transition: 0.35s ease;
 }
 .image-effect2:hover{
-  filter:brightness(115%);
+  filter:brightness(110%);
 	transition: 	.2s;
 }
 

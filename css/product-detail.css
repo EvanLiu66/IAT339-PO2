@@ -1,0 +1,165 @@
+.detail-product{
+    max-width:1400px;
+    margin:auto;
+    display:flex;
+    padding:5rem 0;
+}
+
+.detail-product-left{
+    width:50%;
+}
+
+.detail-image{
+    
+    max-width: 600px;
+    max-height: 600px;
+    margin:auto;
+    
+}
+.detail-image>img{
+    width:100%;
+    height:100%;
+    border-radius: 1rem;
+}
+
+.detail-size{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:3rem;
+}
+
+.small>i{
+    font-size:1rem;
+}
+.median>i{
+    font-size: 1.2rem;
+}
+.large>i{
+    font-size:1.4rem;
+}
+
+.detial-size h5{
+    font-size:1.1rem;
+   
+
+}
+.detial-size p{
+    display:block;
+    font-size:0.7rem;
+    
+}
+
+.topping-img{
+    width:100px;
+    height:100px;
+}
+.topping-img>img{
+    width:100%;
+    height:100%;
+    border-radius: 1rem;
+}
+
+.detail-size>a{
+    padding:0.7rem 1rem;
+    border:1.5px solid #283618;
+    border-radius: 1rem;
+    line-height: 0.4rem;
+}
+
+.detail-size>a:hover{
+    
+    color:#dda15e;
+}
+
+.detail-product-right{
+    width:50%;
+    padding-left:5rem;
+    line-height: 2rem;
+}
+.detail-product-right>p{
+    padding-right:8rem;
+}
+
+.sugar-level{
+    width:100%;
+    display: flex;
+    gap:2rem;
+    
+    
+}
+.detail-product-right>h4{
+    padding-top:1rem;
+}
+.slight>i{
+    font-size:0.8rem;
+}
+.less>i{
+    font-size: 1rem;
+}
+.regular>i{
+    font-size: 1.2rem;
+}
+.sugar-level p{
+    font-size:0.9rem;
+}
+.sugar-level h5{
+    padding:0;
+}
+.sugar-level>a{
+    width:5rem;
+    padding:0.5rem 1rem;
+    border:1.5px solid #283618;
+    border-radius: 1rem;
+    line-height:0.4rem;
+}
+.sugar-level>a:hover{
+    
+    color:#dda15e;
+}
+
+.topping{
+    width:100%;
+    display:flex;
+    gap:3rem;
+    padding-bottom: 3rem;
+}
+.topping>div{
+    text-align: center;
+    line-height: 0.5rem;
+}
+.topping h5{
+    padding-bottom: 0.8rem;
+}
+.topping>div>a{
+    
+    font-size:1rem;
+    padding:0.3rem 0.6rem;
+    border-radius: 50%;
+    border:1px solid #283618;
+}
+
+.topping>div>a:hover{
+    background-color: #283618;
+    color:#fefae0;
+}
+
+.bt{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.add-btu>h4{
+    width:40%;
+    text-align: center;
+    padding:1rem;
+    border:1px solid #283618;
+    border-radius: 1rem;
+}
+
+.add-btu>h4:hover {
+    background-color: #283618;
+    color:#fefae0;
+}
+
+
