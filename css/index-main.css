@@ -118,6 +118,7 @@ backface-visibility: hidden;
 }
 
 .encwrapper{
+  width:70%;
   background-color:purple;
   display:grid;
   grid-template-columns: 1fr;
