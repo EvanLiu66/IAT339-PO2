@@ -1,0 +1,138 @@
+#checkout{
+    max-width: 1400px;
+    
+    margin:auto;
+    display:flex;
+    gap:5rem;
+    
+}
+
+.checkout-left{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    padding:0 3rem;
+}
+
+.checkout-right{
+    width:35%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    padding:0 3rem;
+}
+.checkout-product{
+    
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+}
+
+.checkout-product-detail{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 3rem;
+}
+
+.checkout-img{
+    width:150px;
+    height:150px;
+}
+.checkout-img>img{
+    width:100%;
+    height:100%;
+    border-radius: 1rem;
+}
+.checkout-size>p{
+    color:#283618c0
+}
+
+.checkout-num{
+    
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    padding:0.5rem;
+    border:1px solid #28361876;
+    border-radius: 1rem;
+}
+
+.checkout-product-detail h5{
+    align-self: center;
+}
+.checkout-product-detail>a{
+    align-self: center;
+}
+
+.checkout-product-detail>a:hover{
+    color:#dda15e;
+}
+
+.checkout-price{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.checkout-price>a>h4{
+   
+    padding:1rem;
+    border:1px solid #283618;
+    border-radius: 1rem;
+}
+
+.checkout-price>a>h4:hover {
+    background-color: #283618;
+    color:#fefae0;
+}
+
+/* form */
+
+.checkout-card{
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.checkout-card label{
+    display:block;
+    font-size:1rem;
+    font-family: inherit;
+    margin-bottom:1.2rem;
+}
+.checkout-card input{
+    width:90%;
+    border:none;
+    padding:0.8rem;
+    font-size:0.9rem;
+    background-color: #fefae0;
+    border-radius: 1rem;
+    box-shadow:0 1px 2px rgba(0,0,0,0.1);
+}
+
+.checkout-card select{
+    width:90%;
+    border:none;
+    padding:0.8rem;
+    font-size:0.9rem;
+    background-color: #fefae0;
+    border-radius: 1rem;
+    box-shadow:0 1px 2px rgba(0,0,0,0.1);
+}
+
+.checkout-card>a>h4{
+    width:90%;
+    text-align: center;
+    padding:1rem;
+    border:1px solid #283618;
+    border-radius: 1rem;
+}
+
+.checkout-card>a>h4:hover {
+    background-color: #283618;
+    color:#fefae0;
+}
