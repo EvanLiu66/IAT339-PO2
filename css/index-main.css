@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  font-family: 'Domine', serif;
+  font-weight: 400;
 }
 
 p{
@@ -38,8 +40,11 @@ nav{
   display:grid;
   grid-template-columns: 1fr;
   grid-gap:20px;
+  width:100%;
 }
-
+.cardPic{
+  background-color: pink;
+}
 .card{
   background:white;
   padding:1rem;
@@ -55,9 +60,7 @@ nav{
 .item-1 p{
   max-width:500px;
 }
-.encPicture{
-  background-color: pink;
-}
+
 
 .enc{
   border: 1px solid black;
@@ -95,11 +98,10 @@ backface-visibility: hidden;
   /* border-radius:23px; */
 }
 
-.encwrapper{
-  background-color:purple;
+.encWrapper{
   display:grid;
-  grid-template-columns: 1fr;
-  grid-gap:1rem;
+  grid-template-columns: 1fr .5fr;
+  /* grid-gap:1rem; */
 }
 
 #gridtext{
@@ -141,31 +143,34 @@ backface-visibility: hidden;
 }
 
 .ourstory{
-  margin-bottom: 5rem;
+  margin: auto;
+  display:grid;
+grid-template-columns: 1fr;
 }
 .story{
+  margin:auto;
   border:1px solid black;
   width:50rem;
   padding-left:1rem;
 }
-
+/* for screens BIGGER than 500px */
 @media only screen and (min-width:500px){
+  .cardRepo{
+    margin:1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+.cardPic{
+  margin: 1rem;
+  background-color: blue;
+}
+}
+
+@media only screen and (max-width:300px){
   .cardRepo{
     grid-template-columns: 1fr 1fr;
   }
-
-  .item-1{
-    grid-column: 1/ span 3;
+  .cardPic{
+    background-color: pink;
   }
-
-  .item-4{
-    grid-column: 2/ span 2;
-  }
-
-}
-
-@media only screen and (min-width:850px){
-  .cardRepo{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+/*  */
 }

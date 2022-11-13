@@ -254,6 +254,8 @@
 						var price = this.currency + " " + item.price;
 						var qty = item.qty;
 						var ice = item.ilvl;
+            /*output variable topping as list*/
+            // var topping = item.topping;
 						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><input type='text' value='" + qty + "' class='qty'/></td>"+"<td class='ilvl'><input type='text' value='" + ice + "' class='ilvl'/></td>";
 					    	html += "<td class='pprice'>" + price + "</td><td class='pdelete'><a href='' data-product='" + product + "'>&times;</a></td></tr>";
 						$tableCartBody.html( $tableCartBody.html() + html );
