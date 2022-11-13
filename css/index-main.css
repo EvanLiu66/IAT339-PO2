@@ -40,7 +40,6 @@ nav{
   display:grid;
   grid-template-columns: 1fr;
   grid-gap:20px;
-  width:100%;
 }
 .cardPic{
   background-color: pink;
@@ -124,8 +123,15 @@ backface-visibility: hidden;
   /* border-radius:23px; */
 }
 
+.titleslide h1{
+  text-align: center;
+  font-size: 12rem;
+}
+
 .toggle{
   padding:1rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .toggle button{
@@ -139,22 +145,32 @@ backface-visibility: hidden;
 }
 
 .toggle button:hover{
-  border-bottom: 3px solid black;
+  /* border-bottom: 3px solid black; */
+  color:green;
 }
 
 .ourstory{
-  margin: auto;
+  /* margin: auto; */
+  /* display:grid; */
   display:grid;
 grid-template-columns: 1fr;
 }
+
+.storyheading{
+  font-size: 1.75rem;
+  margin-bottom: .5px;
+}
+
+
+
 .story{
-  margin:auto;
-  border:1px solid black;
+  /* margin:auto; */
+  /* border:1px solid black; */
   width:50rem;
   padding-left:1rem;
 }
 /* for screens BIGGER than 500px */
-@media only screen and (min-width:500px){
+@media only screen and (min-width:700px){
   .cardRepo{
     margin:1rem;
     grid-template-columns: 1fr 1fr 1fr;
@@ -164,13 +180,15 @@ grid-template-columns: 1fr;
   background-color: blue;
 }
 }
-
-@media only screen and (max-width:300px){
+/* for screens smaller than 500px */
+@media only screen and (max-width:650px){
   .cardRepo{
-    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    color:pink;
+    grid-template-columns: 1fr;
   }
   .cardPic{
-    background-color: pink;
+    display:none;
   }
 /*  */
 }
