@@ -73,7 +73,6 @@ nav{
 
 .scrolling-text{
   border:1px solid black;
-
   padding:-.5rem;
 display:inline-block;
 transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
@@ -182,7 +181,7 @@ grid-template-columns: 1fr;
 }
 /* for screens smaller than 500px */
 @media only screen and (max-width:650px){
-  .cardRepo{
+  .encWrapper{
     margin: auto;
     color:pink;
     grid-template-columns: 1fr;
