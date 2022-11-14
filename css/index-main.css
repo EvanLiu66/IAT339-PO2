@@ -62,7 +62,7 @@ nav{
 
 
 .enc{
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .scrollMarq{
@@ -72,7 +72,7 @@ nav{
 }
 
 .scrolling-text{
-  border:1px solid black;
+  /* border:1px solid black; */
   padding:-.5rem;
 display:inline-block;
 transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
@@ -124,7 +124,7 @@ backface-visibility: hidden;
 
 .titleslide h1{
   text-align: center;
-  font-size: 12rem;
+  font-size: 5rem;
 }
 
 .toggle{
@@ -183,7 +183,7 @@ grid-template-columns: 1fr;
 @media only screen and (max-width:650px){
   .encWrapper{
     margin: auto;
-    color:pink;
+    /* color:pink; */
     grid-template-columns: 1fr;
   }
   .cardPic{
