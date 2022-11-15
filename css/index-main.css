@@ -111,8 +111,13 @@ backface-visibility: hidden;
   flex:1;
 }
 
+#comparison{
+  width:30rem;
+}
+
 #tcm{
   display:none;
+  width:30rem;
 }
 
 .responsiveimg{
@@ -159,9 +164,14 @@ grid-template-columns: 1fr;
   font-size: 1.75rem;
   margin-bottom: .5px;
 }
-
-
-
+.header-image{
+  background-image:linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1)),url('../images/indeximg/teaheader.jpg');
+  height:30rem;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
 .story{
   /* margin:auto; */
   /* border:1px solid black; */
@@ -187,6 +197,15 @@ grid-template-columns: 1fr;
     grid-template-columns: 1fr;
   }
   .cardPic{
+    display:none;
+  }
+  .toggle{
+    padding:1rem;
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+  .scrollMarq{
     display:none;
   }
 /*  */
