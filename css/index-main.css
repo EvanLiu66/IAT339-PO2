@@ -52,7 +52,8 @@ nav{
 
 .card:hover {
   filter:brightness(130%);
-  outline: 2px black solid;
+  background-color: #DDA194;
+  outline: 3px solid white;
   outline-offset: -10px;
 }
 
@@ -160,12 +161,18 @@ backface-visibility: hidden;
 grid-template-columns: 1fr;
 }
 
+.tag-line{
+  border:1px solid black;
+  padding:1rem;
+  /* width:50rem; */
+}
+
 .storyheading{
   font-size: 1.75rem;
   margin-bottom: .5px;
 }
 .header-image{
-  background-image:linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1)),url('../images/indeximg/teaheader.jpg');
+  background-image:linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.0)),url('../images/indeximg/teaheader.jpg');
   height:30rem;
   background-position:center;
   background-repeat: no-repeat;
