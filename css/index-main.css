@@ -154,6 +154,18 @@ backface-visibility: hidden;
   color:green;
 }
 
+.img1{
+  opacity:0.0;
+  display:hidden;
+}
+
+
+.item-1:hover .img1{
+  opacity:1.0;
+  display:block;
+
+}
+
 .ourstory{
   /* margin: auto; */
   /* display:grid; */
@@ -192,7 +204,6 @@ grid-template-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
 .cardPic{
-  margin: 1rem;
   background-color: blue;
 }
 }
