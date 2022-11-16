@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>FreshTea Co.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/newmenu.css">
     <link rel="stylesheet" href="css/footer.css">
+    
 
     <!-- fonts -->
     <script src="https://kit.fontawesome.com/81b166f611.js" crossorigin="anonymous"></script>
@@ -208,6 +211,7 @@
                     </div>
 
                 </div>
+                <a class="show-modal add-btu" href="javascript:void(0);"><h4>View your build</h4></a>
                 <a class="add-btu" href="checkout.html"><h4>Add to Cart</h4></a>
             </div>
           </div>
@@ -216,6 +220,49 @@
         </div>
 
     </section>
+
+    <section class="modal hidden">
+        <!-- <section> -->
+            <section class="modal-left">
+                
+                <div class="image-bottom">
+                    <div>
+                        <img src="images/products/milktea/Classic milk tea1.jpg" alt="mt" onclick="changeImg1();">
+                    </div>
+                    <div>
+                        <img src="images/products/milktea/ginger milk tea.jpg" alt="mt" onclick="changeImg2();">
+                    </div>
+                    <div>
+                        <img src="images/products/milktea/coffeemilktea.jpeg" alt="mt" onclick="changeImg3();">
+                    </div>
+                    <div>
+                        <img src="images/products/milktea/honey milk tea.jpg" alt="mt" onclick="changeImg4();" >
+                    </div>
+                </div>
+                <div class="image-top">
+                    <img src="images/products/milktea/Classic milk tea1.jpg" alt="mt">
+
+                </div>
+
+            </section>
+            <section class="modal-right">
+                <div class="close-icon">
+                    <a class="close-modal" href=""><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <h2>Fresh milk tea with pearl</h2>
+                <div>
+                    <h4>Toppings:</h4>
+                    <h4>Pearl & Herbal Jelly</h4>
+                </div>
+                <div>
+                    <h4>Total calorie:</h4>
+                    <h4>140 cal</h4>
+                </div>
+
+            </section>
+        <!-- </section> -->
+    </section>
+    <div class="overlay hidden"></div>
 
 
 
@@ -268,6 +315,6 @@
 
     </footer>
 
-
+    <script src="js/modelwindow.js"></script>
   </body>
 </html>
