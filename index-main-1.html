@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index-main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script rel="text/javascript" src="js/cityScript.js"></script>
+    <script rel="text/javascript" src="js/nav-sticky.js"></script>
     <script rel="text/javascript" src="js/scrollingmarquee.js"></script>
   </head>
   <body>
     <div>
     <!--<imgsrc="images/></div>-->
-    <nav class="main-navigation">
-      <a href="#intro">Introduction</a>
+    <nav class="main-navigation" id="topnav">
+      <a href="#intro" class="active">Introduction</a>
       <a href="menu.html">Tea</a>
       <a href="menu.html">Order Online</a>
       <a href="#product">Contact Us</a>
       <a href="#payment-form">Locations</a>
       <a href="#citations">Citations</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </nav>
       <!-- Modular Section for Introduction Header section here with parallax -->
         <div class="header-image">
@@ -43,6 +46,8 @@
     <h2 class="scrolling-text-content">White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea Green Tea Red Tea Black Tea White Tea </h2>
   </div>
   </div>
+  <div class="spacer">
+  </div>
   <div class="toggle">
     <!-- <h2>Don't believe us? Heres our story</h2> -->
   <div class="ourstory">
@@ -59,7 +64,8 @@
     <p>Chinese traditional herbal tea is base on Traditional Chinese medicine (TCM). TCM has been around for over a thousand years,duringthe late Qing dynasty medicine scholars believed that natural plantscan solve diseases through the balance of Qi. A man named ShengLong, tried thousands natural plants and recorded every plants relative function to the human body, this record forms thecomprehensive codex of Chinese herbal medicine. After thousands of years of evolution, there are hundred recipe of herbal medicine,each recipe has their specific function to human body.</p>
     </div>
     </div>
-
+    <div class="spacer">
+    </div>
 <div class="encWrapper">
   <div class="enc cardRepo">
     <div class= "card item-1">
@@ -94,9 +100,12 @@
       <p>Dried sticks of the liquorice root are also a traditional confectionery in their own right in the Netherlands as were they once in Britain although their popularity has waned in recent decades. They were sold simply as sticks of zoethout ('sweet wood') to chew on as a candy. Through chewing and suckling, the intensely sweet flavour is released. The sweetness is 30 to 50 times as strong as sucrose, without causing damage to teeth. Since about the 1970s, zoethout has become rarer and been replaced by easier to consume candies (including 'drop').</p>
     </div>
   </div>
+
   <div class="enc cardPic">
 <img class="cardInner" src="images/indeximg/teaheader11.jpg" alt"a tea plantation so peaceful">
   </div>
 </div>
   </body>
+      <!-- <script rel="text/javascript" src="js/nav-sticky.js"></script> -->
+      <script rel="text/javascript" src="js/responsive.js"></script>
 </html>
