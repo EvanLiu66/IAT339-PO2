@@ -210,7 +210,7 @@ grid-template-columns: 1fr;
   margin-bottom: .5px;
 }
 .header-image{
-  background-image:linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.0)),url('../images/indeximg/teaheader.jpg');
+  background-image:linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.0)),url('../images/indeximg/assamtea.jpg');
   height:30rem;
   background-position:center;
   background-repeat: no-repeat;
