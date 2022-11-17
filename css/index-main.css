@@ -43,7 +43,25 @@ nav{
 }
 .cardPic{
   background-color: pink;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border:1px solid black;
 }
+.cardInner{
+  min-width: 100%;
+  min-height: 100%;
+}
+.cardInner{
+  /* opacity:0.0;
+  transition: all 500ms ease-in-out; */
+}
+
+.item-1:not(:hover) + .cardInner{
+  display:none;
+}
+
 .card{
   background:white;
   padding:1rem;
@@ -203,9 +221,7 @@ grid-template-columns: 1fr;
     margin:1rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
-.cardPic{
-  background-color: blue;
-}
+
 }
 /* for screens smaller than 500px */
 @media only screen and (max-width:650px){
