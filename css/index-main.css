@@ -4,9 +4,7 @@
   font-weight: 400;
 }
 
-p{
 
-}
 nav{
   margin:1rem;
 }
@@ -209,8 +207,7 @@ grid-template-columns: 1fr;
   margin-bottom: .5px;
 }
 .header-image{
-  background-image:linear-gradient(rgba(255, 255, 255, 2),
-   rgba(255, 255, 255, 0.0)),url('../images/indeximg/assamtea.jpg');
+  background-image:linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.0)),url('../images/indeximg/A-tea-plantation.jpg');
   height:30rem;
   background-position:center;
   background-repeat: no-repeat;
@@ -251,10 +248,11 @@ grid-template-columns: 1fr;
 
 
 
-.main-navigation.responsive a{
-  float:none;
-  display:block;
-  text-align:left;
+  .main-navigation.responsive a{
+    float:none;
+    display:block;
+    text-align:left;
+  }
 }
 /* for screens smaller than 500px */
 @media only screen and (max-width:650px){
