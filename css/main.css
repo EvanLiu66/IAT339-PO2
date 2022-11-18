@@ -13,14 +13,14 @@ header{
 header h1{
     font-size: 2.5rem;
 }
-header .main-navigation{
+/* header .main-navigation{
     width:100;
     display:flex;
     justify-content: space-between;
     padding:2rem 0;
     height:10rem;
-}
-.main-navigation a{
+} */
+/* .main-navigation a{
     text-decoration: none;
     font-size:1.2rem;
     padding:1rem;
@@ -32,7 +32,7 @@ header .main-navigation{
     border-bottom: 2px solid #606c38;
     color:#606c38;
     
-}
+} */
 
 
 /* intro part*/
@@ -383,4 +383,38 @@ header .main-navigation{
     border-radius: 1rem;
     margin-bottom: 1rem;
     
+}
+
+
+/* navigation */
+.header-image{
+    background-image:linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0.0)),url('../images/indeximg/A-tea-plantation.jpg');
+    height:30rem;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+nav{
+    margin:1rem;
+}
+.main-navigation a{
+    font-size: 1.47rem;
+    /* border:1px solid black; */
+    text-decoration: none;
+    margin:1rem;
+    color:black;
+    padding-top: 1rem;
+    padding-right: 1.75rem;
+    padding-left: 1.25rem;
+    padding-bottom:.25rem;
+}
+  
+.main-navigation a:hover{
+    border-bottom: 3px solid black;
+}
+  
+.main-navigation .icon{
+    display:none;
 }

@@ -1,0 +1,40 @@
+.citation{
+    max-width:1100px;
+    margin:auto;
+    padding:5rem;
+    line-height: 4rem;
+    
+    
+}
+.citation h2{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:900px){
+    .citation{
+        max-width:100%;
+    }
+    .main-navigation.responsive{
+        position:relative;
+      }
+    
+      .main-navigation a:not(:first-child){
+        display:none;
+      }
+    
+      .main-navigation a.icon{
+        position:absolute;
+        right:0;
+        top:0;
+        display:block;
+      }
+    
+    
+    
+      .main-navigation.responsive a{
+        float:none;
+        display:block;
+        text-align:left;
+      }
+}
