@@ -2,7 +2,7 @@
 
 *{
 	box-sizing: border-box;
-  
+
 }
 header{
     padding:1rem;
@@ -20,7 +20,7 @@ header .main-navigation{
     padding:2rem 0;
     height:10rem;
 }
-.main-navigation a{
+/* .main-navigation a{
     text-decoration: none;
     font-size:1.2rem;
     padding:1rem;
@@ -31,8 +31,8 @@ header .main-navigation{
 .main-navigation a:hover{
     border-bottom: 2px solid #606c38;
     color:#606c38;
-    
-}
+
+} */
 
 
 /* intro part*/
@@ -133,7 +133,7 @@ header .main-navigation{
     max-width:1400px;
     margin:auto;
     padding:1rem;
-   
+
 
 }
 #interactive-element h3{
@@ -161,9 +161,9 @@ header .main-navigation{
     padding:1rem;
 }
 .navigation-link a>h4:hover{
-    
+
     color:#bc6c25;
-    
+
 }
 
 .submit-button{
@@ -198,7 +198,7 @@ header .main-navigation{
     max-width: 1400px;
     margin:auto;
     padding: 3rem 1rem;
-    
+
 }
 
 
@@ -245,7 +245,7 @@ header .main-navigation{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
 
 .Herbaltea{
@@ -262,7 +262,7 @@ header .main-navigation{
 
 .Herbaltea div{
     width:100%;
-    
+
 }
 .Herbaltea div img{
     width:100%;
@@ -282,7 +282,7 @@ header .main-navigation{
 
 .Herbaljelly div{
     width:100%;
-    
+
 }
 .Herbaljelly div img{
     width:100%;
@@ -302,7 +302,7 @@ header .main-navigation{
 
 .HerbaljellyMT div{
     width:100%;
-    
+
 }
 .HerbaljellyMT div img{
     width:100%;
@@ -319,7 +319,7 @@ header .main-navigation{
 }
 .detail{
     width:100%;
-    
+
     border-radius: 1rem;
     padding:2rem;
     border: 1px solid #283618;
@@ -328,7 +328,7 @@ header .main-navigation{
 
 .paymentform1{
     line-height: 0.1rem;
-    
+
 }
 .form{
     margin:0;
@@ -363,12 +363,12 @@ header .main-navigation{
     justify-content: center;
     align-items: center;
     padding:0 3rem;
-  
+
 }
 .Checkout-right>a{
     margin:0 1rem;
 }
-  
+
 .Checkout-left{
     width:55%;
     height:100%;
@@ -379,8 +379,8 @@ header .main-navigation{
 }
 .Checkout-left>a>img{
     width:100%;
-    
+
     border-radius: 1rem;
     margin-bottom: 1rem;
-    
+
 }

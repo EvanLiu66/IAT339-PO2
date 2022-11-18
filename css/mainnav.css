@@ -1,0 +1,36 @@
+/* CSS for MENU */
+.main-navigation a{
+  font-size: 1.75rem;
+  /* border:1px solid black; */
+  text-decoration: none;
+  margin:1rem;
+  color:black;
+  padding-top: 1rem;
+  padding-right: 1.75rem;
+  padding-left: 1.25rem;
+  padding-bottom:.25rem;
+}
+
+.main-navigation a:hover{
+  border-bottom: 3px solid black;
+}
+
+.main-navigation .icon{
+  display:none;
+}
+
+@media only screen and (max-width:850px){
+  .main-navigation.responsive{
+    position:relative;
+  }
+
+  .main-navigation a:not(:first-child){
+    display:none;
+  }
+
+  .main-navigation a.icon{
+    position:absolute;
+    right:0;
+    top:0;
+    display:block;
+  }
