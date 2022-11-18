@@ -372,4 +372,16 @@ img{
         display:block;
         text-align:left;
       }
+    
+    .modal{
+        flex-direction: column;
+        height:100%;
+
+    }
+    .modal-left{
+        width:100%;
+    }
+    .modal-right{
+        width:100%;
+    }
 }
